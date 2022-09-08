@@ -1,0 +1,253 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+nav {
+     width: 100vw;
+     height: 15vh;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-direction: row;
+     background-color: black;
+
+}
+
+.nav-logo {
+     width: 30%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.nav-logo img {
+
+     width: 13vw;
+}
+
+.navbar {
+
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-direction: row;
+     width: 60%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     padding-right: 10vw;
+     list-style: none;
+     font-weight: 600;
+     font-size: 1.2vw;
+}
+
+.navbar a {
+     color: white;
+     text-decoration: none;
+     text-transform: uppercase;
+
+}
+
+.navbar a:hover {
+     color: rgb(103, 103, 235);
+}
+
+/* hero-section */
+.hero-section {
+     width: 100vw;
+     height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding: 4vw;
+}
+
+.hero-section h1 {
+     height: 2vw;
+     padding-bottom: 5.2vw;
+     margin-bottom: 4vw;
+     font-size: 4vw;
+     border-left: 0.5vw solid brown;
+     border-right: 0.5vw solid brown;
+
+}
+
+.hero-section-iframe {
+
+     width: 100vw;
+     height: 70vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+
+}
+
+.hero-section-iframe iframe {
+     width: 30vw;
+     height: 35vh;
+     padding: 5px;
+}
+
+
+.hero-section-iframe :hover {
+
+     filter: brightness(1.4);
+
+}
+
+/* popular-tractors */
+
+.popular-tractors-container {
+     width: 100vw;
+     height: auto;
+     padding: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+
+
+.popular-tractors-container h1 {
+     height: 1.5vw;
+     padding-bottom: 5.2vw;
+     margin-bottom: 4vw;
+     font-size: 3.7vw;
+     border-left: 0.5vw solid brown;
+     border-right: 0.5vw solid brown;
+
+}
+
+.popular-tractor {
+     width: 98%;
+     height: auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+
+.ptractors {
+     width: 28vw;
+     height: 220px;
+     display: flex;
+     justify-content: center;
+     border: 1px solid rgb(212, 202, 202);
+     border-radius: 2px;
+     margin: 5px;
+}
+
+.ptractors img {
+     width: 74%;
+}
+
+.ptractors a {
+     color: rgb(49, 44, 44);
+     text-decoration: none;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     font-size: 1.8vw;
+}
+
+.ptractors:hover {
+
+     transform: scale(96.5%);
+     box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.76);
+     -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.76);
+     -moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.76);
+
+}
+
+
+/* popular-tractors */
+
+.tractors-by-brand-container {
+     width: 100vw;
+     height: auto;
+     padding: 50px 15px 15px 25px;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+
+
+.tractors-by-brand-container h1 {
+     height: 1.5vw;
+     padding-bottom: 5.2vw;
+     margin-bottom: 4vw;
+     font-size: 3.7vw;
+     border-left: 0.5vw solid brown;
+     border-right: 0.5vw solid brown;
+
+}
+
+.tractors-by-brand {
+     width: 98%;
+     height: auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+
+.btractors {
+     width: 25vw;
+     height: 210px;
+     display: flex;
+     justify-content: center;
+     border: 1px solid rgb(212, 202, 202);
+     border-radius: 2px;
+     margin: 5px;
+}
+
+.btractors img {
+     width: 60%;
+}
+
+.btractors a {
+     color: rgb(49, 44, 44);
+     text-decoration: none;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     font-size: 1.8vw;
+}
+
+.btractors:hover {
+
+     transform: scale(96.5%);
+     box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.76);
+     -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.76);
+     -moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.76);
+
+}
+
+/* tractor-by-brand-btn */
+.tractors-by-brand-btn {
+     color: white;
+     width: 25vw;
+     padding: 1.2vw;
+     border: none;
+     border-radius: 3px;
+     margin-top: 15px;
+     cursor: pointer;
+     background-color: rgb(1, 59, 1);
+     font-size: 1.3vw;
+     font-weight: 600;
+}
+
+.tractors-by-brand-btn:hover{
+     transform: scale(98%);
+     border: 1px solid red;
+}
