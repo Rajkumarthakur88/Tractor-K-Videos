@@ -246,14 +246,14 @@ nav {
      font-weight: 600;
 }
 
-.tractors-by-brand-btn:hover{
+.tractors-by-brand-btn:hover {
      transform: scale(98%);
      border: 1px solid red;
-} 
+}
 
 /* tractors-by-hp */
 
-.tractors-by-hp-container{
+.tractors-by-hp-container {
      width: 100vw;
      height: auto;
      padding: 30px 15px 15px 25px;
@@ -261,10 +261,7 @@ nav {
      align-items: center;
      justify-content: center;
      flex-direction: column;
-
-
 }
-
 
 .tractors-by-hp-container h1 {
      height: 1.5vw;
@@ -273,10 +270,9 @@ nav {
      font-size: 3.7vw;
      border-left: 0.5vw solid brown;
      border-right: 0.5vw solid brown;
-
 }
 
-.tractors-by-hp-btns{
+.tractors-by-hp-btns {
      width: 85%;
      height: 98%;
      display: flex;
@@ -284,7 +280,8 @@ nav {
      justify-content: center;
      flex-wrap: wrap;
 }
-.tractors-by-hp-btn{
+
+.tractors-by-hp-btn {
 
      width: 22vw;
      height: 5vw;
@@ -292,24 +289,23 @@ nav {
      margin: 10px;
      border: 1px rgb(39, 37, 37) solid;
      border-radius: 3px;
-     background-color: rgba(233, 240, 236, 0.863) ;
-color: black;
-font-size: 1.6vw;
-font-weight: 550;
-cursor:pointer;
+     background-color: rgba(233, 240, 236, 0.863);
+     color: black;
+     font-size: 1.6vw;
+     font-weight: 550;
+     cursor: pointer;
 }
 
-
-.tractors-by-hp-btn:hover{
+.tractors-by-hp-btn:hover {
      transform: scale(98%);
      border: 1px solid rgb(6, 162, 102);
-     color:rgb(0, 128, 68) ;
-} 
+     color: rgb(0, 128, 68);
+}
 
 
 /* Tractor-comparison */
 
-.tractor-comparison-container{
+.tractor-comparison-container {
      width: 100vw;
      height: auto;
      padding: 30px 15px 15px 25px;
@@ -317,7 +313,6 @@ cursor:pointer;
      align-items: center;
      justify-content: center;
      flex-direction: column;
-
 }
 
 .tractor-comparison-container h1 {
@@ -327,16 +322,15 @@ cursor:pointer;
      font-size: 3.7vw;
      border-left: 0.5vw solid brown;
      border-right: 0.5vw solid brown;
-
 }
 
 .tractor-comparison-container img {
      width: 90vw;
-     height:200px;
+     height: 200px;
 }
 
 
-/* tractor-by-brand-btn */
+/* Tractor-Comparison-btn */
 .comparison-btn {
      color: white;
      width: 25vw;
@@ -350,7 +344,110 @@ cursor:pointer;
      font-weight: 600;
 }
 
-.comparison-btn:hover{
+.comparison-btn:hover {
      transform: scale(98%);
      border: 2px solid rgb(58, 49, 49);
-} 
+}
+
+/* Youtube Subscribe button */
+.youtube-subscribe-section{
+
+     width: 100vw;
+     height: auto;
+     background-color: rgb(251, 244, 244);
+     border-top: 1px solid rgb(223, 215, 215);
+     border-bottom: 1px solid rgb(223, 215, 215);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding: 15px 5px 30px 5px;
+}
+.youtube-subscribe-section img{
+
+     width: 20vw;
+}
+.subscribe-button a{
+
+     border: red solid 1px;
+     padding: 10px 25px 10px 25px;
+     color: red;
+     font-size: 1.3vw;
+     font-weight: 600;
+     text-decoration: none;
+}
+
+.subscribe-button a:hover{
+
+     border: white solid 1.5px;
+     color: white;
+     background-color: rgb(197, 30, 30);
+     transform: scale(99.5%);
+}
+
+/* footer-section */
+footer{
+
+     width: 100vw;
+     height: auto;
+     background-color: rgb(135, 0, 27);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: row;
+     justify-content: space-evenly;
+     padding: 20px;
+     color: white;
+}
+.quick-links{
+     width: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+
+.contact-us{
+     width: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+.quick-links h1{
+     font-size: 20px;
+}
+.quick-links ul{
+     list-style: none;
+}
+
+.contact-us h1{
+     font-size: 20px;
+     position: relative;
+     right: 14%;
+}
+.contact-us ul{
+ list-style: none;
+}
+.contact-us a{
+     color: white;
+     text-decoration: none;
+}
+.copyright-section{
+     width: 100vw;
+     height: auto;
+     padding: 12px;
+     border-top: 0.5px solid rgb(167, 154, 154) ;
+     background-color:  rgb(135, 0, 27);
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 1.2vw;
+}
+.about-home{
+
+     padding: 25px;
+     font-size: 1.1vw;
+     font-weight: 100;
+}
