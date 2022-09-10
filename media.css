@@ -40,6 +40,7 @@
      /* hero-section-query */
 
      .hero-section {
+          flex-direction: column;
           flex-wrap: wrap;
 
      }
@@ -54,6 +55,11 @@
      flex-direction: column;
      flex-wrap: wrap;
 
+}
+.hero-section-iframe iframe{
+     width: 80vw;
+     height: 15vw;
+     padding: 4px;
 }
 
 }
