@@ -143,11 +143,12 @@ nav {
      border-radius: 2px;
      margin: 5px;
 }
-.ptractors6 img{
+
+.ptractors6 img {
      width: 71%;
 }
 
-.ptractors2 img{
+.ptractors2 img {
      width: 95%;
 
 }
@@ -307,7 +308,7 @@ nav {
      font-size: 1.6vw;
      font-weight: 550;
      cursor: pointer;
-     
+
      display: flex;
      align-items: center;
      justify-content: center;
@@ -366,7 +367,7 @@ nav {
 }
 
 /* Youtube Subscribe button */
-.youtube-subscribe-section{
+.youtube-subscribe-section {
 
      width: 100vw;
      height: auto;
@@ -379,11 +380,13 @@ nav {
      flex-direction: column;
      padding: 15px 5px 30px 5px;
 }
-.youtube-subscribe-section img{
+
+.youtube-subscribe-section img {
 
      width: 20vw;
 }
-.subscribe-button a{
+
+.subscribe-button a {
 
      border: red solid 1px;
      padding: 10px 25px 10px 25px;
@@ -393,7 +396,7 @@ nav {
      text-decoration: none;
 }
 
-.subscribe-button a:hover{
+.subscribe-button a:hover {
 
      border: white solid 1.5px;
      color: white;
@@ -402,7 +405,7 @@ nav {
 }
 
 /* footer-section */
-footer{
+footer {
 
      width: 100vw;
      height: auto;
@@ -415,7 +418,8 @@ footer{
      padding: 20px;
      color: white;
 }
-.quick-links{
+
+.quick-links {
      width: 50%;
      display: flex;
      align-items: center;
@@ -423,52 +427,132 @@ footer{
      flex-direction: column;
 }
 
-.contact-us{
+.contact-us {
      width: 50%;
      display: flex;
      align-items: center;
      justify-content: center;
      flex-direction: column;
 }
-.quick-links h1{
+
+.quick-links h1 {
      font-size: 2.2vw;
      margin-bottom: 2px;
 }
-.quick-links ul{
+
+.quick-links ul {
      list-style: none;
      font-size: 1.7vw;
 }
 
-.contact-us h1{
-    
+.contact-us h1 {
+
      font-size: 2.2vw;
      margin-bottom: 2px;
      position: relative;
      right: 14%;
 }
-.contact-us ul{
+
+.contact-us ul {
      font-size: 1.7vw;
- list-style: none;
+     list-style: none;
 }
-.contact-us a{
+
+.contact-us a {
      color: white;
      text-decoration: none;
 }
-.copyright-section{
+
+.copyright-section {
      width: 100vw;
      height: auto;
      padding: 12px;
-     border-top: 0.5px solid rgb(167, 154, 154) ;
-     background-color:  rgb(135, 0, 27);
+     border-top: 0.5px solid rgb(167, 154, 154);
+     background-color: rgb(135, 0, 27);
      color: white;
      display: flex;
      align-items: center;
      justify-content: center;
      font-size: 1.2vw;
 }
-.about-home{
+
+.about-home {
 
      padding: 25px;
      font-size: 1.1vw;
      font-weight: 100;
+}
+
+/* fixed-whatsapp-button */
+.whatsapp-link {
+     width: 55px;
+     height: 7vh;
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 1fr;
+     background-color: rgb(0, 29, 0);
+     color: white;
+     position: fixed;
+     top: 70%;
+     right: 0%;
+}
+.price-link {
+     width: 55px;
+     height: 7.5vh;
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 1fr;
+     background-color: rgb(0, 29, 0);
+     color: white;
+     position: fixed;
+     top: 77%;
+     right: 0%;
+}
+.price {
+     display: flex;
+     align-items: center;
+justify-content: center;
+font-size: 20px;
+font-weight: 600;
+
+     color: white;
+     border: 1px solid whitesmoke;
+}
+
+.whatsapp-img {
+     width: 100%;
+     display: flex;
+     align-items: center;
+justify-content: center;
+     border: 1px solid whitesmoke;
+}
+
+.whatsapp-img  img{
+     width: 35%;
+}
+
+
+.whatsapp-img:hover {
+
+justify-content: flex-start;
+padding-left: 5px;
+
+}
+
+.whatsapp-link:hover {
+     transition: all 0.2s ease-in-out;
+     width: 120px;
+     height: 7.5vh;
+}
+
+.price-link:hover {
+     transition: all 0.2s ease-in-out;
+     width: 120px;
+     height: 7.5vh;
+}
+
+.price:hover {
+     align-items: center;
+justify-content: flex-start;
+padding-left: 4px;
 }
