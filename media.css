@@ -13,8 +13,8 @@
           width: 100vw;
           justify-content: space-evenly;
           padding-right: none;
-          padding: 10px;
-          font-size: 1.7vw;
+          padding: 6px;
+          font-size: 1.8vw;
      }     
 }
 
@@ -22,7 +22,6 @@
 
      nav{
           width: 100vw;
-          height: 20vh;
           justify-content: center;
           flex-direction: column;
      }
