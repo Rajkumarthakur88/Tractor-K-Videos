@@ -135,12 +135,16 @@ nav {
 
 .ptractors {
      width: 28vw;
-     height: 220px;
+     height: 30vw;
      display: flex;
      justify-content: center;
      border: 1px solid rgb(212, 202, 202);
      border-radius: 2px;
      margin: 5px;
+}
+.ptractors6 img{
+     width: 71%;
+
 }
 
 .ptractors img {
