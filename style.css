@@ -485,7 +485,7 @@ footer {
 
 /* fixed-whatsapp-button */
 .whatsapp-link {
-     width: 55px;
+     width: 5vw;
      height: 7vh;
      display: grid;
      grid-template-columns: 1fr;
@@ -497,7 +497,7 @@ footer {
      right: 0%;
 }
 .price-link {
-     width: 55px;
+     width: 5vw;
      height: 7.5vh;
      display: grid;
      grid-template-columns: 1fr;
