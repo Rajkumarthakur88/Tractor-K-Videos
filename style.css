@@ -134,7 +134,7 @@ nav {
 }
 
 .ptractors {
-     width: 28vw;
+     width: 29vw;
      height: 20vw;
      display: flex;
      justify-content: center;
@@ -213,7 +213,7 @@ nav {
 
 .btractors {
      width: 25vw;
-     height: 210px;
+     height: 22vw;
      display: flex;
      justify-content: center;
      border: 1px solid rgb(212, 202, 202);
@@ -247,7 +247,7 @@ nav {
 /* tractor-by-brand-btn */
 .tractors-by-brand-btn {
      color: white;
-     width: 25vw;
+     width: 27vw;
      padding: 1.2vw;
      border: none;
      border-radius: 3px;
@@ -295,7 +295,7 @@ nav {
 
 .tractors-by-hp-btn {
 
-     width: 22vw;
+     width: 25vw;
      height: 5vw;
      padding: 10px;
      margin: 10px;
@@ -306,6 +306,10 @@ nav {
      font-size: 1.6vw;
      font-weight: 550;
      cursor: pointer;
+     
+     display: flex;
+     align-items: center;
+     justify-content: center;
 }
 
 .tractors-by-hp-btn:hover {
@@ -337,15 +341,14 @@ nav {
 }
 
 .tractor-comparison-container img {
-     width: 90vw;
-     height: 200px;
+     width: 92vw;
 }
 
 
 /* Tractor-Comparison-btn */
 .comparison-btn {
      color: white;
-     width: 25vw;
+     width: 27vw;
      padding: 1.2vw;
      border: none;
      border-radius: 3px;
@@ -427,18 +430,23 @@ footer{
      flex-direction: column;
 }
 .quick-links h1{
-     font-size: 20px;
+     font-size: 2.2vw;
+     margin-bottom: 2px;
 }
 .quick-links ul{
      list-style: none;
+     font-size: 1.7vw;
 }
 
 .contact-us h1{
-     font-size: 20px;
+    
+     font-size: 2.2vw;
+     margin-bottom: 2px;
      position: relative;
      right: 14%;
 }
 .contact-us ul{
+     font-size: 1.7vw;
  list-style: none;
 }
 .contact-us a{

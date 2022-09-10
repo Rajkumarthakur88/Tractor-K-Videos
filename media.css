@@ -1,40 +1,22 @@
-
 @media(max-width:321px) {
 
      /* nav-bar-query */
-     nav{
+     nav {
           width: 100vw;
           justify-content: center;
           flex-direction: column;
      }
-     .nav-logo{
+
+     .nav-logo {
           width: 100vw;
      }
-     .navbar{
+
+     .navbar {
           width: 100vw;
           justify-content: space-evenly;
           padding-right: none;
           padding: 6px;
           font-size: 1.8vw;
-     }     
-}
-
-@media(min-width:321px) and (max-width:425px){
-
-     nav{
-          width: 100vw;
-          justify-content: center;
-          flex-direction: column;
-     }
-     .nav-logo{
-          width: 100vw;
-     }
-     .navbar{
-          width: 100vw;
-          justify-content: space-evenly;
-          padding-right: none;
-          padding: 10px;
-          font-size: 1.6vw;
      }
 
      /* hero-section-query */
@@ -44,48 +26,85 @@
           flex-wrap: wrap;
 
      }
-     
-.hero-section-iframe {
 
-     width: 80vw;
-     height: 60vh;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-direction: column;
-     flex-wrap: wrap;
+     .hero-section-iframe {
 
-}
-.hero-section-iframe iframe{
-     width: 80vw;
-     height: 15vw;
-     padding: 4px;
-}
+          width: 90vw;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          flex-wrap: wrap;
 
-}
+     }
 
-@media( min-width:425px) and (max-width:768px)
-{
-nav{
-     width: 100vw;
-     height: 20vh;
-     justify-content: center;
-     flex-direction: column;
-}
-.nav-logo{
-     width: 100vw;
-}
-.navbar{
-     width: 100vw;
-     justify-content: space-evenly;
-     padding-right: none;
-     padding: 10px;
-     font-size: 1.6vw;
-}
-}
+     .hero-section-iframe iframe {
+          width: 95%;
+          height: 35%;
+          padding: 4px;
+     }
 
-@media( min-width:768px) and (max-width:1015px){
+     .hero-section :nth-child(5) {
+          display: none;
+
+     }
+
+     .hero-section :nth-child(6) {
+          display: none;
+
+     }
+
+     .ptractors img {
+          width: 55%;
+     }
 
 
 
 }
+
+@media(min-width:321px) and (max-width:425px) {
+
+     nav {
+          width: 100vw;
+          justify-content: center;
+          flex-direction: column;
+     }
+
+     .nav-logo {
+          width: 100vw;
+     }
+
+     .navbar {
+          width: 100vw;
+          justify-content: space-evenly;
+          padding-right: none;
+          padding: 10px;
+          font-size: 1.6vw;
+     }
+
+
+}
+
+@media(min-width:425px) and (max-width:768px) {
+     nav {
+          width: 100vw;
+          height: 20vh;
+          justify-content: center;
+          flex-direction: column;
+     }
+
+     .nav-logo {
+          width: 100vw;
+     }
+
+     .navbar {
+          width: 100vw;
+          justify-content: space-evenly;
+          padding-right: none;
+          padding: 10px;
+          font-size: 1.6vw;
+     }
+}
+
+@media(min-width:768px) and (max-width:1015px) {}
